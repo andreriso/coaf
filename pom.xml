@@ -17,7 +17,7 @@
 
 	<properties>
 		<java.version>11</java.version>
-		<start-class>service.Application</start-class>
+		<start-class>cursoJava.coaf.App</start-class>
 	</properties>
 
 	<dependencies>
