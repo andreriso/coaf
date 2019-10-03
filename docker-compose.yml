@@ -1,0 +1,6 @@
+version: '2'
+services:
+  coaf.service:
+    build: .
+    ports:
+      - "5555:8080"

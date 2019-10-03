@@ -16,5 +16,5 @@ WORKDIR ./
 
 COPY --from=maven target/coaf-*.jar ./
 
-EXPOSE 5555
+EXPOSE 8080
 CMD ["java", "-jar", "coaf-0.0.1-SNAPSHOT.jar"]
